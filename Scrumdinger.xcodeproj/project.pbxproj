@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D59A094C2D932F2F0074B62D /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = D59A094B2D932F2F0074B62D /* ThemeKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D59A09272D9318510074B62D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59A094C2D932F2F0074B62D /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = Scrumdinger;
 			packageProductDependencies = (
+				D59A094B2D932F2F0074B62D /* ThemeKit */,
 			);
 			productName = Scrumdinger;
 			productReference = D59A09162D93184F0074B62D /* Scrumdinger.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = D59A090D2D93184F0074B62D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D59A094A2D932F2F0074B62D /* XCLocalSwiftPackageReference "../../../../Downloads/UsingStacksToArrangeViews/Complete/TutorialResources/ThemeKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D59A09172D93184F0074B62D /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D59A094A2D932F2F0074B62D /* XCLocalSwiftPackageReference "../../../../Downloads/UsingStacksToArrangeViews/Complete/TutorialResources/ThemeKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../../Downloads/UsingStacksToArrangeViews/Complete/TutorialResources/ThemeKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D59A094B2D932F2F0074B62D /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D59A090E2D93184F0074B62D /* Project object */;
 }

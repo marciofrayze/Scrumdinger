@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  Scrumdinger
-//
-//  Created by Marcio Frayze David on 3/25/25.
-//
 
 import SwiftUI
 
